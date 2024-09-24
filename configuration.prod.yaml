@@ -1,9 +1,9 @@
 apimServiceName: nitz-apim-prd
 namedValues:
-  - name: backendurl
+  - name: samplesecret
     properties:
-      displayName: backendurl
-      value: "https://www.prodsearch2.com"
+      displayName: samplesecret
+      value: "prodsecret"
 loggers:
 diagnostics:
 backends:
