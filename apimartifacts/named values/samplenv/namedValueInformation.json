@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "displayName": "samplenv",
+    "secret": false,
+    "tags": [],
+    "value": "samplenv"
+  }
+}
