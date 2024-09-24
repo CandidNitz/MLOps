@@ -1,5 +1,9 @@
 apimServiceName: nitz-apim-prd
 namedValues:
+  - name: backendurl
+    properties:
+      displayName: backendurl
+      value: "https://www.prodsearch2.com"
 loggers:
 diagnostics:
 backends:
