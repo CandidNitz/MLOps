@@ -1,6 +1,0 @@
-apimServiceName: nitz-apim-prd
-namedValues:
-loggers:
-diagnostics:
-backends:
-apis:
