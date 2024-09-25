@@ -4,7 +4,15 @@ namedValues:
     properties:
       displayName: samplesecret
       value: "prodsecret"
+  - name: nitzpythonfunctionapp-key
+    properties:
+      displayName: nitzpythonfunctionapp-key
+      value: "oqte3oAGCtBjk5upDur2pNv6UugcuCusZHX97zk1TBawAzFuZ5g4dA=="
 loggers:
 diagnostics:
 backends:
+  - name: nitzpythonfunctionapp
+    properties:
+      url: "https://nitzpythonfunctionapp-prod.azurewebsites.net/api"
+      resourceid: "https://management.azure.com/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/nitzpythonfunctionapp_group/providers/Microsoft.Web/sites/nitzpythonfunctionapp-prod"
 apis:
