@@ -15,6 +15,14 @@ namedValues:
         identityClientId: d9e8b972-2987-4fe5-b346-63e5425bc87d
         secretIdentifier: https://nitz-key-vault.vault.azure.net/secrets/api-key-prod/a32022bc682642339b4483c0a9321579
 loggers:
+    - name: nitz-appinsights-prd
+      properties:
+        loggerType: applicationInsights
+        description: prod application insights
+        resourceId: "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/target-nitz-rg/providers/microsoft.insights/components/nitz-appinsights-prd"
+        credentials:
+          instrumentationKey: "c886d3b6-8f5b-4e94-9653-74f8c1ec4c3d"
+        isBuffered: true
 diagnostics:
 backends:
   - name: nitzpythonfunctionapp
