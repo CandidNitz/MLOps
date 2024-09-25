@@ -1,3 +1,4 @@
+# config file nbc
 apimServiceName: nitz-apim-prd
 namedValues:
   - name: samplesecret
