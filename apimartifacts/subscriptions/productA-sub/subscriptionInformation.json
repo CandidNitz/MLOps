@@ -1,8 +1,0 @@
-{
-  "properties": {
-    "displayName": "productA-sub",
-    "scope": "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/source-nitz-rg/providers/Microsoft.ApiManagement/service/nitz-apim-test/products/producta",
-    "allowTracing": false,
-    "state": "active"
-  }
-}
