@@ -36,7 +36,7 @@ backends:
 apis:
   - name: demo-conference-api
     properties:
-      displayName: "MY Conference API"
+      displayName: "Demo Conference API"
     diagnostics:
       - name: applicationinsights
         properties:
