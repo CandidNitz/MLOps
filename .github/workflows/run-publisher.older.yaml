@@ -1,4 +1,4 @@
-name: Run - Publisher
+name: Run - Publisher v5.x
 
 on:
   # Triggers the workflow on pull request events but only for the main branch
