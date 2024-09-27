@@ -1,5 +1,9 @@
 apimServiceName: nitz-apim-prd
 namedValues:
+  - name: Logger-Credentials-AppInsight
+    properties:
+      displayName: Logger-Credentials-AppInsight
+      value: "c886d3b6-8f5b-4e94-9653-74f8c1ec4c3d"
   - name: samplesecret
     properties:
       displayName: samplesecret
@@ -21,7 +25,7 @@ loggers:
         description: Prod Application Insights
         resourceId: "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/target-nitz-rg/providers/microsoft.insights/components/nitz-appinsights-prd"
         credentials:
-          instrumentationKey: "c886d3b6-8f5b-4e94-9653-74f8c1ec4c3d"
+          instrumentationKey: "{{Logger-Credentials-AppInsight}}"
         isBuffered: true
 diagnostics:
 backends:
