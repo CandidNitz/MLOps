@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "displayName": "nitzpythonfunctionapp-key",
+    "secret": true,
+    "tags": [
+      "key",
+      "function",
+      "auto"
+    ]
+  }
+}
