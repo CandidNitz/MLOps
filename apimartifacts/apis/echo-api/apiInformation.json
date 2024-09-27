@@ -10,7 +10,7 @@
     ],
     "serviceUrl": "http://echoapi.cloudapp.net/api",
     "subscriptionKeyParameterNames": {
-      "header": "Ocp-Apim-Subscription-Key",
+      "header": "x-api-key",
       "query": "subscription-key"
     },
     "subscriptionRequired": true
