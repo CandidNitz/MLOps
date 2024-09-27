@@ -30,10 +30,3 @@ backends:
       url: "https://nitzpythonfunctionapp-prod.azurewebsites.net/api"
       resourceid: "https://management.azure.com/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/nitzpythonfunctionapp_group/providers/Microsoft.Web/sites/nitzpythonfunctionapp-prod"
 apis:
-  - name: demo-conference-api
-    diagnostics:
-      - name: applicationinsights
-        properties:
-          verbosity: Error
-          loggerId: "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/target-nitz-rg/providers/Microsoft.ApiManagement/service/nitz-apim-prd/loggers/nitz-appinsights-test"
-
