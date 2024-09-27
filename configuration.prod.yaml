@@ -24,10 +24,6 @@ loggers:
           instrumentationKey: "c886d3b6-8f5b-4e94-9653-74f8c1ec4c3d"
         isBuffered: true
 diagnostics:
-  - name: applicationinsights
-    properties:
-      verbosity: Error
-      loggerId: "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/target-nitz-rg/providers/Microsoft.ApiManagement/service/nitz-apim-prd/loggers/nitz-appinsights"
 backends:
   - name: nitzpythonfunctionapp
     properties:
@@ -38,7 +34,3 @@ apis:
     properties:
       displayName: "Demo Conference API"
     diagnostics:
-      - name: applicationinsights
-        properties:
-          verbosity: Error
-          loggerId: "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/target-nitz-rg/providers/Microsoft.ApiManagement/service/nitz-apim-prd/loggers/nitz-appinsights"
