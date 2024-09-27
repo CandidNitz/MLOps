@@ -15,7 +15,7 @@ namedValues:
         identityClientId: d9e8b972-2987-4fe5-b346-63e5425bc87d
         secretIdentifier: https://nitz-key-vault.vault.azure.net/secrets/api-key-prod/a32022bc682642339b4483c0a9321579
 loggers:
-    - name: nitz-appinsights-test
+    - name: nitz-appinsights
       properties:
         loggerType: applicationInsights
         description: Prod Application Insights
@@ -27,7 +27,7 @@ diagnostics:
   - name: applicationinsights
     properties:
       verbosity: Error
-      loggerId: "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/target-nitz-rg/providers/Microsoft.ApiManagement/service/nitz-apim-prd/loggers/nitz-appinsights-test"
+      loggerId: "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/target-nitz-rg/providers/Microsoft.ApiManagement/service/nitz-apim-prd/loggers/nitz-appinsights"
 backends:
   - name: nitzpythonfunctionapp
     properties:
@@ -41,5 +41,4 @@ apis:
       - name: applicationinsights
         properties:
           verbosity: Error
-          loggerId: "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/target-nitz-rg/providers/Microsoft.ApiManagement/service/nitz-apim-prd/loggers/nitz-appinsights-test"
-
+          loggerId: "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/target-nitz-rg/providers/Microsoft.ApiManagement/service/nitz-apim-prd/loggers/nitz-appinsights"
