@@ -32,7 +32,7 @@ backends:
 apis:
   - name: demo-conference-api
     diagnostics:
-      - name: nitz-appinsights-prd
+      - name: nitz-appinsights-test
         properties:
           verbosity: Error
           loggerId: "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/target-nitz-rg/providers/Microsoft.ApiManagement/service/nitz-apim-prd/loggers/nitz-appinsights-prd"
