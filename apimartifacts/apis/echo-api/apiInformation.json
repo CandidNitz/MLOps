@@ -4,7 +4,7 @@
     "apiRevision": "1",
     "authenticationSettings": {},
     "isCurrent": true,
-    "displayName": "Echo API CICD",
+    "displayName": "Echo API",
     "protocols": [
       "https"
     ],
