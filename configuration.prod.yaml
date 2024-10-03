@@ -41,4 +41,5 @@ apis:
   - name: demo-conference-api
     properties:
       displayName: "Demo Conference API"
+      path: "rest/conference"
     diagnostics:
